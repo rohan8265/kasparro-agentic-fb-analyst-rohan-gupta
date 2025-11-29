@@ -1,0 +1,35 @@
+{
+  "diagnosis": {
+    "campaign_name": "WOMEN Seamless Everydy",
+    "period": [
+      "2025-02-01",
+      "2025-03-31"
+    ],
+    "observations": [
+      {
+        "note": "Avg CTR = 0.0053 (dataset 25th pct = 0.0094) \u2014 flagged low CTR"
+      },
+      {
+        "note": "ROAS fell from 12.8 -> 1.2 (roas_change = -11.6)"
+      },
+      {
+        "note": "Creative messages are static and feature-focused with no urgency or social proof"
+      }
+    ],
+    "validated_hypotheses": [
+      {
+        "id": "h2",
+        "statement": "Creative fatigue \u2014 message is stale across placements",
+        "evidence": "negative ctr_slope; top creatives repeated the same phrase; frequency > 4",
+        "evaluator_result": "validated",
+        "effect": "CTR down 35% vs prior month; p=0.0002; confidence=0.91"
+      }
+    ],
+    "recommended_actions": [
+      "Rotate creatives: introduce urgency + testimonial variants",
+      "A/B test new CTA vs control: 10% traffic, 7 days",
+      "Expand audience by +20% (lookalike threshold widening) to reduce frequency"
+    ]
+  },
+  "confidence": 0.87
+}

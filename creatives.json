@@ -1,0 +1,43 @@
+{
+  "campaign_name": "MEN BOL COLORS DROP",
+  "creative_type": "image",
+  "creative_suggestions": [
+    {
+      "variant_id": "v1",
+      "headline": "All-day comfort. Zero pinch.",
+      "body": "Try our breathable boxers\u2014stay cool from morning to night. Free 2-day exchange.",
+      "cta": "Try 2-Pack",
+      "expected_goal": "increase CTR",
+      "rationale": "Retains benefit-led messaging but adds a clear transactional CTA and risk-reducer (exchange).",
+      "test_recommendation": {
+        "split": 0.1,
+        "duration_days": 7
+      }
+    },
+    {
+      "variant_id": "v2",
+      "headline": "Summer-ready. Sweat-wicking boxers.",
+      "body": "New colors, lightweight fabric. Perfect for active days\u2014limited stock.",
+      "cta": "Shop Summer",
+      "expected_goal": "increase CTR",
+      "rationale": "Adds seasonality and urgency to boost clicks.",
+      "test_recommendation": {
+        "split": 0.08,
+        "duration_days": 7
+      }
+    },
+    {
+      "variant_id": "v3",
+      "headline": "Love the fit\u201498% recommend.",
+      "body": "Customer-rated comfort with breathable fabric. See why men switch to our boxers.",
+      "cta": "See Reviews",
+      "expected_goal": "improve CTR-quality",
+      "rationale": "Social proof to improve click intent and CVR.",
+      "test_recommendation": {
+        "split": 0.05,
+        "duration_days": 10
+      }
+    }
+  ],
+  "confidence": 0.78
+}
